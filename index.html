@@ -26,7 +26,6 @@ TemplateMo 557 Grad School
 https://templatemo.com/tm-557-grad-school
 
 -->
-<script src="./assets/js/telgram_msg.js"></script>
 </head>
 
 <body>
@@ -248,13 +247,13 @@ https://templatemo.com/tm-557-grad-school
                 </div>
                 <div class="col-md-12">
                   <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email"
+                    <input name="email" type="email" class="form-control" id="email" placeholder="Your Email"
                       required="">
                   </fieldset>
                 </div>
                 <div class="col-md-12">
                   <fieldset>
-                    <input name="phone-number" type="text" class="form-control" id="phone-number"
+                    <input name="phone-number" type="tel" class="form-control" id="phone-number" pattern="+91[0-9]{10}"
                       placeholder="Your Phone Number" required="">
                   </fieldset>
                   <fieldset>
@@ -263,7 +262,7 @@ https://templatemo.com/tm-557-grad-school
                   </fieldset>
                   </fieldset>
                   <fieldset>
-                    <input name="semester" type="text" class="form-control" id="sem"
+                    <input name="semester" type="number" class="form-control" id="sem"
                       placeholder="Your semester" required="">
                   </fieldset>
 
@@ -271,7 +270,7 @@ https://templatemo.com/tm-557-grad-school
                 </div>
                 <div class="col-md-12">
                   <fieldset>
-                    <button type="button" onclick="register()" id="form-submit" class="button">Submit</button>
+                    <button type="submit"  id="form-submit" class="button">Submit</button>
                   </fieldset>
                 </div>
               </div>
@@ -490,7 +489,7 @@ https://templatemo.com/tm-557-grad-school
               </div>
               <div class="col-md-6">
                 <fieldset>
-                  <input name="email" type="text" class="form-control" id="emaily" placeholder="Your Email" required="">
+                  <input name="email" type="email" class="form-control" id="emaily" placeholder="Your Email" required="">
                 </fieldset>
               </div>
               <div class="col-md-12">
@@ -501,7 +500,7 @@ https://templatemo.com/tm-557-grad-school
               </div>
               <div class="col-md-12">
                 <fieldset>
-                  <button type="button" onclick="gitouch()" id="form-submit" class="button">Send Message Now</button>
+                  <button type="submit"  id="form-submit" class="button">Send Message Now</button>
                 </fieldset>
               </div>
             </div>
@@ -598,6 +597,8 @@ https://templatemo.com/tm-557-grad-school
       checkSection();
     });
   </script>
+<script src="./assets/js/telgram_msg.js"></script>
+
 </body>
 
 </html>
