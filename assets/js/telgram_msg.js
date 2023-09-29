@@ -28,5 +28,5 @@ formy.onsubmit = (e) => {
   fetch(
     `https://api.telegram.org/bot5990879490:AAHTlMJrRwC-LRwHEV3FS34T9acm9l-yPmY/sendMessage?chat_id=-1001967873486&text=New%20Query%0AName%20%3D%20${name}%0AEmail%20%3D%20${email_id}%0Amessage%20%3D%20${msg}`
   );
-  form.reset();
+  formy.reset();
 };
